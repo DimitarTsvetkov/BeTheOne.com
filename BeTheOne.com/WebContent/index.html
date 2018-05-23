@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>BeTheOne.com</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+<link type="text/css" href="assets/css/mainCSS.css" rel="stylesheet" >
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Romanesco"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kalam"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gloria Hallelujah"
+	rel="stylesheet">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Fruktur"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Tillana"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Catamaran"
+	rel="stylesheet">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
+
+
+<link rel="shortcut icon" href="assets/img/successIcon.png"
+	type="image/png">
+ <style>
+ body {
+	background: url("assets/img/mainBackground.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+} 
+</style>  
+
+
+</head>
+
+<body>
+	<!-- Navigation bar -->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">Menu</span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="">BeTheOne.com</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="home.html"><i class="fa fa-home fa-fw"></i>Home</a></li>
+
+					<li><a href="community.html"><i class="fa fa-users"
+							aria-hidden="true"></i> Community</a></li>
+					<li><a href="idols.html"><i class="fa fa-superpowers"
+							aria-hidden="true"></i> Idols</a></li>
+					<li><a href="multimedia.html"><i class="fa fa-youtube"
+							aria-hidden="true"></i> Multimedia</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">Motivate Yourself<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="workout.html"><i class="fa fa-heartbeat"
+									aria-hidden="true"></i> Workout motivation</a></li>
+							<li><a href="study.html"><i class="fa fa-graduation-cap"
+									aria-hidden="true"></i> Study motivation</a></li>
+							<li><a href="career.html"><i class="fa fa-suitcase"
+									aria-hidden="true"></i> Career motivation</a></li>
+							<li><a href="love.html"><i class="fa fa-heart "
+									aria-hidden="true" style="color: red;">
+									</i> Love motivation</a></li>
+						</ul></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Register</a></li>
+					<li><a href="#"><i class="fa fa-sign-in"
+							aria-hidden="true" style="color: green;"></i> Log in </a></li>
+					<li><a href="#"><i class="fa fa-search fa-lg"
+							aria-hidden="true"></i></a></li>
+					
+							
+							
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="container-fluid"
+		style="background: rgba(255, 255, 255, 0.5);">
+		
+		<!-- Section/ Aside/Article -->
+		
+		<div class="row">
+			<section>
+				<div class="col-sm-6"
+					style="font-family: 'Gloria Hallelujah'; font-size: 100%">
+					<div class="btn-group">
+						Success Stories 
+						<button class="button" id="linkStory1" style="border-radius: 50%;">
+						Arianna Huffington</button>  &nbsp;
+						<button class="button" id="linkStory2" style="border-radius: 50%;">
+						Bill Gates</button>  &nbsp;
+						<button class="button" id="linkStory3" style="border-radius: 50%;">
+						George Steinbrenner </button> &nbsp;
+						<button class="button" id="linkStory4" style="border-radius: 50%;">
+						 Walt Disney </button> &nbsp;
+						<button class="button" id="linkStory5" style="border-radius: 50%;">
+						Steve Jobs </button> &nbsp;
+						<button class="button" id="linkStory6" style="border-radius: 50%;">
+						Milton Hershey</button>
+					</div>
+				</div>
+			</section>
+
+			<!--  Quote random generator is here  -->
+
+			<aside>
+				<div class="col-sm-6 text-center">
+				
+				   <div class="row">
+     
+					<button class="btn text-center" id="rand-quote">Start your
+						day with motivation</button>
+
+					<div class="quotes text-center" align="center">
+						<span class="quote"></span> <br>
+						<span class="author"></span>
+					</div> 
+					</div>
+				</div>
+			</aside>
+		</div>
+		<div class="row">
+			<article>
+				<div class="col-sm-12">
+					<div id="myStory1" style="display: none;" class="textFont">
+						<hr class="hrStyling">
+						<strong>Arianna Huffington got rejected by 36 publishers</strong>
+						<br /> It’s hard to believe that one of the most recognizable
+						names in online publications was once rejected by three dozen
+						major publishers. Huffington’s second book, which she tried to
+						publish long before she created the now ubiquitously recognizable
+						Huffington Post empire, was rejected 36 times before it was
+						eventually accepted for publication.Even Huffington Post itself
+						wasn’t a success right away. In fact, when it launched, there were
+						dozens of highly negative reviews about its quality and its
+						potential. Obviously, Huffington overcame those initial bouts of
+						failure and has cemented her name as one of the most successful
+						outlets on the web.
+					</div>
+					<div id="myStory2" style="display: none;" class="textFont">
+						<hr class="hrStyling">
+						<strong>Bill Gates watched his first company crumble</strong><br />
+						Bill Gates is now one of the world’s wealthiest individuals, but
+						he didn’t earn his fortune in a straight line to success. Gates
+						entered the entrepreneurial scene with a company called
+						Traf-O-Data, which aimed to process and analyze the data from
+						traffic tapes (think of it like an early version of big data). He
+						tried to sell the idea alongside his business partner, Paul Allen,
+						but the product barely even worked. It was a complete disaster.
+						However, the failure did not hold Gates back from exploring new
+						opportunities, and a few years later, he created his first
+						Microsoft product, and forged a new path to success.
+					</div>
+					<div id="myStory3" style="display: none;" class="textFont">
+					 <hr class="hrStyling">
+					 <strong>George Steinbrenner bankrupted a team</strong><br/>
+					 Before Steinbrenner made a name for himself 
+					 when he acquired ownership of the New York Yankees, 
+					 he owned a small basketball team called the Cleveland Pipers back in 1960.
+					 By 1962, as a result of Steinbrenner’s direction, 
+					 the entire franchise went bankrupt.
+                     That stretch of failure seemed to follow Steinbrenner 
+                     when he took over the Yankees in the 1970s, 
+                     as the team struggled with a number of setbacks and losses 
+                     throughout the 1980s and 1990s. However, despite public fear and 
+                     criticism of Steinbrenner’s controversial decisions, 
+                     eventually he led the team to an amazing comeback, 
+                     with six World Series entries between 1996 and 2003, 
+                     and a record as one of the most profitable teams in Major League Baseball.
+					</div>
+					<div id="myStory4" style="display: none;" class="textFont">
+					<hr class="hrStyling">
+					<strong>Walt Disney was told he lacked creativity</strong><br/>
+					 One of the most creative geniuses of the 20th century was once fired
+					 from a newspaper because he was told he lacked creativity. 
+					 Trying to persevere, Disney formed his first animation company, 
+					 which was called Laugh-O-Gram Films. He raised $15,000 for the company
+					 but eventually was forced to close Laugh-O-Gram, 
+					 following the close of an important distributor partner.
+                     Desperate and out of money, Disney found his way to Hollywood
+                     and faced even more criticism and failure until finally, 
+                     his first few classic films started to skyrocket in popularity.
+					</div>
+					<div id="myStory5" style="display: none;" class="textFont">
+					<hr class="hrStyling">
+					<strong>Steve Jobs was booted from his own company</strong><br/>
+					Steve Jobs is an impressive entrepreneur because of his
+					 boundless innovations, but also because of his emphatic comeback
+					  from an almost irrecoverable failure. Jobs found success in his 20s
+					  when Apple became a massive empire, but when he was 30, 
+					  Apple’s board of directors decided to fire him.
+                      Undaunted by the failure, Jobs founded a new company, 
+                      NeXT, which was eventually acquired by Apple. Once back at Apple,
+                      Jobs proved his capacity for greatness by reinventing
+                      the company’s image and taking the Apple brand to new heights.
+					</div>
+					<div id="myStory6" style="display: none;" class="textFont">
+					<hr class="hrStyling">
+					<strong>Milton Hershey started three candy companies before Hershey's</strong>
+					<br/>
+					Everyone knows Hershey’s chocolate, but when Milton Hershey first started
+					his candy production career, he was a nobody. After being fired
+					from an apprenticeship with a printer, Hershey started three separate
+					candy-related ventures, and was forced to watch all of them fail.
+					In one last attempt, Hershey founded the Lancaster Caramel Company, 
+					and started seeing enormous results. 
+					Believing in his vision for milk chocolate for the masses, 
+					he eventually founded the Hershey Company and became one
+					of the most well-known names in the industry.
+					</div>
+				</div>
+			</article>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	 
+
+</body>
+</html>
